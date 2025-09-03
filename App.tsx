@@ -1,12 +1,7 @@
-import {View,StyleSheet, Text} from 'react-native';
+import { SingIn } from "./src/screens/SingIn"
 
 export default function App (){
   return(
-    <View>
-      
-    </View>
+    <SingIn/>
   )
 }
-
-const styles = StyleSheet.create({
-})
