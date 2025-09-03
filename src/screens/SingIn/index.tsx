@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import {View, Text} from 'react-native';
+import {View, Text, TextInput} from 'react-native';
 import { stylesSingIn } from './styles';
 
 export function SingIn (){
     return(
         <View style={stylesSingIn.container}>
-            <Text>Aqui será construído a tela de entrada.</Text>
+            <Text style={stylesSingIn.texto}>Digite sua senha:</Text>
+            <TextInput style={stylesSingIn.input}/>
         </View>
     )
 }
