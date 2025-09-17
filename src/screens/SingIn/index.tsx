@@ -1,6 +1,8 @@
+import React, {useState} from 'react';
 import {View, Text, Image, TextInput, StatusBar} from 'react-native';
 import { styles } from './styles';
 import IllustrationImg from '../../assets/illustration.png';
+import { ButtonIcon } from '../../components/Buttonlcon';
 
 export function SingIn(){
     return(
@@ -17,6 +19,8 @@ export function SingIn(){
                     Crie grupos para jogar seus games {'\n'}
                     favoritos com seus amigos
                 </Text>
+                <ButtonIcon title='Entrar com o Discord'
+                />
             </View>
         </View>
     )
